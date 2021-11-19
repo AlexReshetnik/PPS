@@ -1,0 +1,23 @@
+html,
+body {
+   background-color: #ffffff;
+   /* overflow-y:scroll;*/
+    
+   
+}
+
+* {
+    margin: 0;
+    padding: 0;
+ 
+}
+
+
+
+footer {
+     
+    background-color: coral;
+    height: 40px;
+    
+     
+}

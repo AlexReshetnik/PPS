@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TourismClub</title>
+    <meta name="description" content="Туристичний клуб">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/headerStyle.css" rel="stylesheet">
+    <link href="css/mainStyle.css" rel="stylesheet">
+    <script src="js/script.js"></script> 
+</head>
+
+<body>
+    <header>
+        <nav class="whole-place centring">
+            <ul id="navigationList" class="ollcenter centring">
+                <li>
+                    <a href="index.html"><img class="ph-home" src="images/63633.png" /> На головну</a>
+                </li>
+                <li >
+                    <details id="toursList"  class="whole-place">
+                        <summary class="whole-place style-summary centring">
+                            <img class="ph-galc" src="images/gall.png" /> Маршрути
+                        </summary>
+                        <a href="index.html">на головну</a>
+                        <a href="index.html">на головну</a>
+                        <a href="index.html">на головну</a>
+                        <a href="index.html">на головну</a>
+                        <a href="index.html">на головну</a>
+                        <a href="index.html">на головну</a>
+                        <a href="index.html">на головну</a>
+                    </details>
+                </li>
+                <li><a href="index.html">Маршрути</a></li>
+                <li><a href="index.html">Походи</a></li>
+                <li>
+                    <a id="login" onclick="showloginBox();" href="#">Увійти</a>
+                </li>
+            </ul>
+        </nav>
+
+        <div id="loginBloc" class="centring  centringpading visibilityhidden">
+            <div style="width: 15%; padding: 1%; background-color:rgba(37, 37, 37, 0.835);" class="centringpading">
+                <input id="exitButton" onclick="showloginBox();" type="button" value="X" />
+
+                <form  class="centringpading" style="height: 80%;  width: 70%;">
+                    <input class="setsize" type="text" name="login" placeholder=" Уведіть пошту"/>
+                    <input class="setsize" type="password" name="password"placeholder=" Уведіть пароль" />
+
+                    <input id="authorizationButton"  class="centringpading setsize"type="submit" value=" Увійти "/>
+
+                    <p id="registrationtext" onclick="showReistrationBox();"class="centring" >Зареєструватись</p>
+
+                   
+                </form>
+            </div>
+        </div>
+
+        <div id="reistrationBloc" class="centring  centringpading visibilityhidden">
+            <div style="width: 15%; padding: 1%; background-color:rgba(37, 37, 37, 0.835);" class="centringpading">
+                <input id="exitButton" onclick="showReistrationBox(), showloginBox();" type="button" value="X" />
+
+                <form  class="centringpading" style="height: 80%; width: 70%;">
+                    <input class="setsize" type="text" name="login" placeholder=" Уведіть пошту"/>
+
+                     <input class="setsize " type="text" name="login" placeholder=" Уведіть имя"/>
+
+                    <input class="setsize" type="password" name="password"placeholder=" Уведіть пароль" />
+
+                    <input id="authorizationButton"  class="centringpading setsize"type="submit" value=" Зареєструватись "/>
+
+                    <p id="registrationtext" onclick="showReistrationBox();"class="centring" style="font-size: 7px;" >Увійти</p>
+
+                   
+                </form>
+            </div>
+        </div>
+    </header>
+<!----------------------------------------------------------------------->
+    <main>
+        <!-- якась загольна назва для привітання-->
+        
+        <h1 class="centring  centringpading" style="
+     
+font-size: 300%; 
+ top: 10vh;
+bottom: 0;
+text-align: center;
+padding-right: 10%;
+              padding-left: 10%;
+               text-transform: uppercase;
+             
+">Соображения высшего порядка, а также реализация намеченного плана развития способствует повышению актуальности дальнейших направлений развития проекта. </h1>
+
+        <!-- в мейт буде три колонки квадратіків з походами-->
+        <!--анімація при загрузці зробити як в еппл-->
+
+
+
+        <div id="maincontent" class="centringpading  ">
+            <section class="grid-container  ">
+                <article class="centringpading ">
+                    <a href="index.html">
+                        <img class="imgStyle" src="images/makovu.png" />
+                    </a>
+                   
+                    <div class="centringpading">
+                        Тег article> задает содержание сайта вроде новости, статьи, записи блога, форума или др.
+                    </div>
+                </article>
+
+                <article class="centringpading  ">
+                    <a href="index.html">
+                        <img class="imgStyle" src="images/asdf.png" />
+                    </a>
+                    <div class="centringpading">
+                        Тег article> задает содержание сайта вроде новости, статьи, записи блога, форума или др.
+                    </div>
+                </article>
+
+                 <article class="centringpading ">
+                    <a href="index.html">
+                        <img class="imgStyle" src="images/makovu.png" />
+                    </a>
+                   
+                    <div class="centringpading">
+                        Тег article> задает содержание сайта вроде новости, статьи, записи блога, форума или др.
+                    </div>
+                </article>
+
+                <article class="centringpading  ">
+                    <a href="index.html">
+                        <img class="imgStyle" src="images/asdf.png" />
+                    </a>
+                    <div class="centringpading">
+                        Тег article> задает содержание сайта вроде новости, статьи, записи блога, форума или др.
+                    </div>
+                </article>
+
+                 <article class="centringpading ">
+                    <a href="index.html">
+                        <img class="imgStyle" src="images/makovu.png" />
+                    </a>
+                   
+                    <div class="centringpading">
+                        Тег article> задает содержание сайта вроде новости, статьи, записи блога, форума или др.
+                    </div>
+                </article>
+
+                <article class="centringpading  ">
+                    <a href="index.html">
+                        <img class="imgStyle" src="images/asdf.png" />
+                    </a>
+                    <div class="centringpading">
+                        Тег article> задает содержание сайта вроде новости, статьи, записи блога, форума или др.
+                    </div>
+                </article>
+              
+            </section>
+        </div>
+    </main>
+
+
+
+    <footer>
+        footer
+    </footer>
+</body>
+<script src="js/scriptLastFile.js"></script>
+
+</html>

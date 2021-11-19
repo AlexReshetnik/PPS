@@ -1,0 +1,187 @@
+header {
+    background: #000000a4; 
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: fixed  ;
+    z-index: 1;
+    background-color:rgb(80, 80, 80);
+}
+
+header *{
+    font-family:sans-serif;
+    text-decoration:none;
+    color: #959595;
+    font-size: 1em;
+    font-stretch:ultra-condensed;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+#navigationList {
+    height: 100%;
+    width: 60%;
+}
+@keyframes ONLOAD {
+    from {font-size: 0;}
+    40% {font-size: 0;}
+}
+#navigationList>li {
+    height: 80%;
+    width: 100%;
+    margin: 10px, 20px;
+    display: inline;
+    margin-left: 1%;
+    margin-right: 1%;
+   
+    animation-name: ONLOAD;
+    animation-duration: 0.6s;
+    animation-timing-function: ease;
+    z-index: 1;
+    border-radius: 20px;
+}
+
+.style-summary {
+    list-style: none;
+}
+
+#navigationList>li a {
+    display: block;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color:rgb(80, 80, 80);
+}
+
+#toursList[open]>a {
+    background-color:rgb(80, 80, 80);
+}
+details[open]>a:last-child{
+    border-end-end-radius: 10px;
+    border-end-start-radius: 10px;
+
+}
+@keyframes reloadIco {
+    from {transform: scaleY(0);}
+    to {transform: scaleY(-1);}
+}
+details[open] img {
+    animation-fill-mode: forwards;
+    animation-name: reloadIco;
+    animation-duration: 0.7s;
+    animation-timing-function: ease;
+}
+@keyframes openlist {
+    to {font-size: 110%;}
+}
+@keyframes hoverlink {
+    to {color:rgb(255, 255, 255);}
+}
+header a:hover,summary:hover ,#toursList a:hover{
+    animation-fill-mode: forwards;
+    animation-name: hoverlink,openlist;
+    animation-duration: 0.3s;
+    animation-timing-function: ease;
+}
+
+.whole-place {
+    /* збільшення розмірів*/
+    height: 100%;
+    width: 100%;
+}
+
+
+/*-------------налаштування фоток*/
+
+.ph-home {
+    width: 10%;
+}
+
+.ph-galc {
+    width: 12%;
+    border-radius: 0;
+    border: 0 solid black;
+    margin-right: 5%;
+}
+
+.centring {
+    /*центрування*/
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+@keyframes showBoxRegistr {
+    from {
+        background-color: rgba(44, 44, 44, 0);
+    }
+    to {
+        background-color: rgba(37, 37, 37, 0.774);
+    }
+}
+
+.showBoxRegistr{
+    animation-name: showBoxRegistr;
+    animation-duration: 0.4s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+
+#loginBloc *,#reistrationBloc * { 
+    border-radius: 5px;
+     
+}
+#loginBloc,#reistrationBloc { 
+    position: absolute;
+    top:50vw;
+    z-index: 2;
+    transform:scale(2,1.4);
+    width: 100vw;
+    height: 100vh;
+     
+}
+#registrationtext{
+    font-size: 8px;
+color: blue;
+}
+#registrationtext:hover{
+color: rgb(174, 0, 255);
+}
+#exitButton{
+   text-align: center;
+   margin-left: 89%;
+   
+    height: 100%;
+     aspect-ratio: 1 / 1;
+     border-radius: 50%;
+}
+#loginBloc>div *:not(p, form),#reistrationBloc>div *:not(p, form) {
+
+ border: 1px solid black;
+
+}
+.setsize{
+  width: 100%; 
+  height: 22%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+#authorizationButton{
+    display: block;
+    width:auto;   
+}
+#exitButton:hover, #authorizationButton:hover{
+background-color: rgb(117, 117, 117);
+}
+.visibilityhidden {
+    /*зховати елемент*/
+    visibility:hidden;
+}
+
+.overflowhidden {
+    /*хабороняє прокрутку*/
+    overflow: hidden;
+}
