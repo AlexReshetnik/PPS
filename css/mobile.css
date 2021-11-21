@@ -5,7 +5,7 @@
 }
           header *{
     
-    font-size: calc(2vw);
+    font-size: 2vw;
    
 }
 
@@ -13,8 +13,7 @@
 
 
 #navigationList>li {
-    height: 0%;
-    width: 100%;
+    
     margin: 10px, 20px;
     display: inline;
     margin-left: 1%;
