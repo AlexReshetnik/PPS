@@ -7,21 +7,18 @@ header {
     position: fixed  ;
     z-index: 1;
     background-color:rgb(80, 80, 80);
+    font-size: 1vw;
+    font-stretch:ultra-condensed;
+    font-weight: 100;
+    font-family:sans-serif;
 }
 
 header *{
-    font-family:sans-serif;
     text-decoration:none;
     color: #bbb9b9;
-    font-size: 1em;
-    font-stretch:ultra-condensed;
-    font-weight: 100;
-    font-size: calc(1vw);
-    letter-spacing: 2
+    letter-spacing: 2px;
 }
 
-
- 
 #navigationList {
     height: 100%;
     width: 60%;

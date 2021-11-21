@@ -15,11 +15,7 @@ header *{
     margin-left: 1%;
     margin-right: 1%;
    
-    animation-name: ONLOAD;
-    animation-duration: 0.6s;
-    animation-timing-function: ease;
-    z-index: 1;
-    border-radius: 20px;
+ 
 }
 
 
