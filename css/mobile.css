@@ -1,15 +1,11 @@
-
 #navigationList {
     height: 100%;
     width: 100%;
 }
-          header *{
-    
+
+header *{
     font-size: 2vw;
-   
 }
-
-
 
 
 #navigationList>li {
