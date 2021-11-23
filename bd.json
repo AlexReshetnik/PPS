@@ -1,12 +1,9 @@
-[
-    {
-        "name": "Tom",
-        "married": true,
-        "age": 30
-    },
-    {
-        "name": "Alice",
-        "married": false,
-        "age": 23
+{
+    "name": "Tom",
+    "married": true,
+    "age": 30,
+    "company": {
+        "name": "Microsoft",
+        "address": "USA, Redmond"
     }
-]
+}
