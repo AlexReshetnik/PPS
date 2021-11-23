@@ -1,19 +1,20 @@
 main {
     background-color: rgb(211, 211, 211);
-    height: 110%;
+    
  
    border-radius: 10px;
 
 }
 
 #maincontent {
-    height: 100%;
+   
     max-width: 1200px;
-   top:10vh;
+  bottom: 0;
+  margin-top: 8vh;
+
 }
 
 .grid-container {
-    width: 100%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 25fr);

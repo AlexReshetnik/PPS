@@ -1,9 +1,10 @@
-html,
-body {
+html {
    background-color: #ffffff;
-   /* overflow-y:scroll;*/
-    
-   
+ height: auto;
+
+}
+body{
+       min-width: 1200px;
 }
 
 * {
@@ -18,6 +19,6 @@ footer {
      
     background-color: coral;
     height: 40px;
-    
+    bottom: 0;
      
 }
