@@ -12,7 +12,7 @@
     <link href="css/mainStyle.css" rel="stylesheet">
     <link href="css/mobile.css" rel="stylesheet" type="text/css" media="(max-device-width:480px)" />
     <script src="js/script.js"></script> 
-
+  
 </head>
 <!DOCTYPE html>
 <html lang="en">
@@ -27,6 +27,7 @@
 </body>
 </html>
 <body>
+   
     <header>
         <nav class="whole-place centring">
             <ul id="navigationList" class="ollcenter centring">
@@ -34,6 +35,7 @@
                     <a href="index.html"><img class="ph-home" src="images/63633.png" />  На головну</a>
                 </li>
                 <li >
+                    
                     <details id="toursList"  class="whole-place">
                         <summary class="whole-place style-summary centring">
                             <img class="ph-galc" src="images/gall.png" /> Маршрути
@@ -47,7 +49,7 @@
                         <a href="index.html">на головну</a>
                     </details>
                 </li>
-                <li><a href="index.html">Маршрути</a></li>
+                <li><a href="admin.html">користувачі</a></li>
                 <li><a href="index.html">Походи</a></li>
                 <li>
                     <a id="login" onclick="showloginBox();" href="#">Увійти</a>
@@ -59,11 +61,12 @@
             <div style="width: 15%; padding: 1%; background-color:rgba(37, 37, 37, 0.835);" class="centringpading">
                 <input id="exitButton" onclick="showloginBox();" type="button" value="X" />
 
-                <form  class="centringpading" style="height: 80%;  width: 70%;">
+                <form  name="search" class="centringpading" style="height: 80%;  width: 70%;">
                     <input class="setsize" type="text" name="login" placeholder=" Уведіть пошту"/>
-                    <input class="setsize" type="password" name="password"placeholder=" Уведіть пароль" />
+                    
+                    <input class="setsize" type="password" name="password"placeholder=" Уведіть пароль"/>
 
-                    <input id="authorizationButton"  class="centringpading setsize"type="submit" value=" Увійти "/>
+                    <input id="authorizationButton"  class="centringpading setsize" type="submit" value=" Увійти "/>
 
                     <p id="registrationtext" onclick="showReistrationBox();"class="centring" >Зареєструватись</p>
 
@@ -83,7 +86,7 @@
 
                     <input class="setsize" type="password" name="password"placeholder=" Уведіть пароль" />
 
-                    <input id="authorizationButton"  class="centringpading setsize"type="submit" value=" Зареєструватись "/>
+                    <input id="authorizationButton"  class="centringpading setsize" type="submit" value=" Зареєструватись "/>
 
                     <p id="registrationtext" onclick="showReistrationBox();"class="centring" style="font-size: 7px;" >Увійти</p>
 
@@ -182,7 +185,6 @@ padding-right: 10%;
     <footer>
         footer
     </footer>
+    <script src="js/scriptLastFile.js"></script>
 </body>
-<script src="js/scriptLastFile.js"></script>
-
 </html>

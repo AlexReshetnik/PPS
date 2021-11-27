@@ -1,9 +1,0 @@
-{
-    "name": "Tom",
-    "married": true,
-    "age": 30,
-    "company": {
-        "name": "Microsoft",
-        "address": "USA, Redmond"
-    }
-}
