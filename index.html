@@ -8,174 +8,96 @@
     <title>TourismClub</title>
     <meta name="description" content="Туристичний клуб">
     <link href="css/style.css" rel="stylesheet">
-    <link href="css/headerStyle.css" rel="stylesheet">
-    <link href="css/mainStyle.css" rel="stylesheet">
-    <link href="css/mobile.css" rel="stylesheet" type="text/css" media="(max-device-width:480px)" />
-    <script src="js/script.js"></script> 
-  
+    <link href="css/header.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
 </head>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
+
 <body>
-    
-</body>
-</html>
-<body>
-   
     <header>
         <nav class="whole-place centring">
             <ul id="navigationList" class="ollcenter centring">
                 <li>
-                    <a href="index.html"><img class="ph-home" src="images/63633.png" />  На головну</a>
+                    <a href="index.html"><img class="ph-home" src="images/63633.png" /> Tourism Club</a>
                 </li>
-                <li >
-                    
-                    <details id="toursList"  class="whole-place">
+                <li>
+
+                    <details id="toursList" class="whole-place">
                         <summary class="whole-place style-summary centring">
                             <img class="ph-galc" src="images/gall.png" /> Маршрути
                         </summary>
-                        <a href="index.html">на головну</a>
-                        <a href="index.html">на головну</a>
-                        <a href="index.html">на головну</a>
-                        <a href="index.html">на головну</a>
-                        <a href="index.html">на </a>
-                        <a href="index.html">на головну</a>
-                        <a href="index.html">на головну</a>
+                        <a href="route.html">на route</a>
+                        <a href="route.html">на route</a>
+                        <a href="route.html">на route</a>
+                        <a href="route.html">на route</a>
                     </details>
                 </li>
-                <li><a href="admin.html">користувачі</a></li>
-                <li><a href="index.html">Походи</a></li>
+                <!--- <li><a href="admin.html">Панель Адміністратора</a></li>-->
                 <li>
-                    <a id="login" onclick="showloginBox();" href="#">Увійти</a>
+                    <a id="login" href="login.html">Увійти</a>
                 </li>
             </ul>
         </nav>
-
-        <div id="loginBloc" class="centring  centringpading visibilityhidden">
-            <div style="width: 15%; padding: 1%; background-color:rgba(37, 37, 37, 0.835);" class="centringpading">
-                <input id="exitButton" onclick="showloginBox();" type="button" value="X" />
-
-                <form  name="search" class="centringpading" style="height: 80%;  width: 70%;">
-                    <input class="setsize" type="text" name="login" placeholder=" Уведіть пошту"/>
-                    
-                    <input class="setsize" type="password" name="password"placeholder=" Уведіть пароль"/>
-
-                    <input id="authorizationButton"  class="centringpading setsize" type="submit" value=" Увійти "/>
-
-                    <p id="registrationtext" onclick="showReistrationBox();"class="centring" >Зареєструватись</p>
-
-                   
-                </form>
-            </div>
-        </div>
-
-        <div id="reistrationBloc" class="centring  centringpading visibilityhidden">
-            <div style="width: 15%; padding: 1%; background-color:rgba(37, 37, 37, 0.835);" class="centringpading">
-                <input id="exitButton" onclick="showReistrationBox(), showloginBox();" type="button" value="X" />
-
-                <form  class="centringpading" style="height: 80%; width: 70%;">
-                    <input class="setsize" type="text" name="login" placeholder=" Уведіть пошту"/>
-
-                     <input class="setsize " type="text" name="login" placeholder=" Уведіть имя"/>
-
-                    <input class="setsize" type="password" name="password"placeholder=" Уведіть пароль" />
-
-                    <input id="authorizationButton"  class="centringpading setsize" type="submit" value=" Зареєструватись "/>
-
-                    <p id="registrationtext" onclick="showReistrationBox();"class="centring" style="font-size: 7px;" >Увійти</p>
-
-                   
-                </form>
-            </div>
-        </div>
     </header>
-<!----------------------------------------------------------------------->
+    <!----------------------------------------------------------------------->
     <main>
-        <!-- якась загольна назва для привітання-->
-        
-        <h1 class="centring  centringpading" style="
-     
+        <h1 id="mainText" class="centring  centringpading ">Соображения высшего порядка, а также реализация намеченного
+            плана развития способствует. </h1>
 
-font-size: 400%; 
- top: 10vh;
-bottom: 0;
-text-align: center;
-padding-right: 10%;
-              padding-left: 10%;
-               text-transform: uppercase;
-             
-">Соображения высшего порядка, а также реализация намеченного плана развития способствует повышению актуальности дальнейших направлений развития проекта. </h1>
+        <div id="mainContent" class="centringpading">
+            <section id="gridSection">
+                <article class="centringpading">
+                    <a href="route.html">
+                        <img class="imgStyle" src="images/makovu.png" />
+                   
 
-        <!-- в мейт буде три колонки квадратіків з походами-->
-        <!--анімація при загрузці зробити як в еппл-->
+                    <div >
+                        Тег article> задает содержание сайта вроде новости, статьи, записи блога, форума или др.
+                    </div> </a>
+                </article>
 
+                <article class="centringpading  ">
+                    <a href="route.html">
+                        <img class="imgStyle" src="images/asdf.png" />
+                        <div>
+                            Тег article> задает содержание сайта вроде новости, статьи, записи блога, форума или др.
+                        </div>
+                    </a>
+                </article>
 
-
-        <div id="maincontent" class="centringpading  ">
-            <section class="grid-container  ">
                 <article class="centringpading ">
-                    <a href="index.html">
-                        <img class="imgStyle" src="images/makovu.png" />
-                    </a>
-                   
-                    <div class="centringpading">
+                    <a href="route.html"><img class="imgStyle" src="images/makovu.png" />
+                    <div >
                         Тег article> задает содержание сайта вроде новости, статьи, записи блога, форума или др.
-                    </div>
+                    </div></a>
                 </article>
 
                 <article class="centringpading  ">
-                    <a href="index.html">
-                        <img class="imgStyle" src="images/asdf.png" />
-                    </a>
-                    <div class="centringpading">
+                    <a href="route.html"><img class="imgStyle" src="images/asdf.png" />
+                    <div >
                         Тег article> задает содержание сайта вроде новости, статьи, записи блога, форума или др.
-                    </div>
+                    </div></a>
                 </article>
 
-                 <article class="centringpading ">
-                    <a href="index.html">
-                        <img class="imgStyle" src="images/makovu.png" />
-                    </a>
-                   
-                    <div class="centringpading">
+                <article class="centringpading ">
+                    <a href="route.html"><img class="imgStyle" src="images/makovu.png" />
+
+                    <div >
                         Тег article> задает содержание сайта вроде новости, статьи, записи блога, форума или др.
-                    </div>
+                    </div></a>
                 </article>
 
                 <article class="centringpading  ">
-                    <a href="index.html">
-                        <img class="imgStyle" src="images/asdf.png" />
-                    </a>
-                    <div class="centringpading">
+                    <a href="route.html"><img class="imgStyle" src="images/asdf.png" />
+                    <div >
                         Тег article> задает содержание сайта вроде новости, статьи, записи блога, форума или др.
-                    </div>
+                    </div></a>
                 </article>
-
-                 <article class="centringpading ">
-                    <a href="index.html">
-                        <img class="imgStyle" src="images/makovu.png" />
-                    </a>
-                   
-                    <div class="centringpading">
-                        Тег article> задает содержание сайта вроде новости, статьи, записи блога, форума или др.
-                    </div>
-                </article>
-
                 <article class="centringpading  ">
-                    <a href="index.html">
-                        <img class="imgStyle" src="images/asdf.png" />
-                    </a>
-                    <div class="centringpading">
+                    <a href="route.html"><img class="imgStyle" src="images/asdf.png" />
+                    <div >
                         Тег article> задает содержание сайта вроде новости, статьи, записи блога, форума или др.
-                    </div>
+                    </div></a>
                 </article>
-              
             </section>
         </div>
     </main>
@@ -183,8 +105,53 @@ padding-right: 10%;
 
 
     <footer>
-        footer
+        <div id="footerTable" class="centring">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Розробники</th>
+                        <th>Git</th>
+                        <th>Cоцсети</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Решетнік Олексій</td>
+                        <td><a target="_blank" href="https://github.com/AlexReshetnik">Alex Reshetnik</a></td>
+                        <td><a target="_blank" href="https://www.pinterest.ru/alexreshetnik/miii/">Pinteres</a></td>
+                    </tr>
+                    <tr>
+                        <td>Владислав Гриньків</td>
+                        <td><a target="_blank" href="#">---</a></td>
+                        </td>
+                        <td><a target="_blank" href="#">---</a></td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Максимчук Максим</td>
+                        <td><a target="_blank" href="#">---</a></td>
+                        </td>
+                        <td><a target="_blank" href="#">---</a></td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Сигін Андрій</td>
+                        <td><a target="_blank" href="#">---</a></td>
+                        </td>
+                        <td><a target="_blank" href="#">---</a></td>
+                        </td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <th colspan="3">Всі права захищає Сигін)</th>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+
     </footer>
-    <script src="js/scriptLastFile.js"></script>
+    <script src="js/header.js"></script>
 </body>
+
 </html>

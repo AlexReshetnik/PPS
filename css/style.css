@@ -1,9 +1,10 @@
 html {
    background-color: #ffffff;
- height: auto;
+ height: 100%;
 
 }
 body{
+    height: 100%;
        min-width: 1200px;
 }
 
@@ -13,12 +14,62 @@ body{
  
 }
 
-
-
-footer {
-     
-    background-color: coral;
-    height: 40px;
+.centring {
+    /*центрування*/
+      display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.centringpading {
+    top: 0;
+    right: 0;
+    left: 0;
     bottom: 0;
-     
+    position: relative;
+    margin: auto;
+}
+
+
+footer { 
+    background-color: coral; 
+    bottom: 0;
+    background-color:rgb(80, 80, 80);
+    padding: 10px;
+    padding-top: 15px;
+    
+}
+#footerTable thead th{
+   font-size: 17px;
+    color: #000000;
+}
+#footerTable th{
+    width: 100px;
+}
+#footerTable td,#footerTable th{
+     font-size: 90%;
+    height: 20px;
+  transition: all 0.1s ease-in;
+  display: table-cell;
+    text-align:center;
+     color: #bbb9b9;
+}
+#footerTable table{
+    width:600px; 
+    justify-content: center;
+}
+#footerTable a{
+text-decoration: none;
+ color: #bbb9b9;
+
+}
+#footerTable a:hover{
+color: #000000;
+}
+#footerTable tfoot th {
+    color: #000000;
+}
+#footerTable td:hover  {
+    transition: all 0.1s ease-in;
+   font-size: 100%;
+     color: #000000;
 }

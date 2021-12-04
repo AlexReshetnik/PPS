@@ -1,0 +1,91 @@
+body,main{
+    width: 100%;
+    height: 100%;
+}
+.formBloc{
+width: 20%; 
+padding: 1%; 
+background-color:rgba(37, 37, 37, 0.835);
+transform: scale(1.5);
+
+}
+
+@keyframes showBoxRegist {
+    from {
+        background-color: rgba(44, 44, 44, 0);
+    }
+    to {
+        background-color: rgba(37, 37, 37, 0.774);
+    }
+}
+
+.showBoxRegistr{
+    animation-name: showBoxRegist;
+    animation-duration: 0.4s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+
+#login_reistration_fon *{ 
+    border-radius: 5px;
+     font-size: 15px;
+    
+    font-stretch:ultra-condensed;
+    font-weight: 100;
+    color: #000;
+}
+#login_reistration_fon{ 
+    background-color: rgb(199, 199, 199);
+    position: absolute;
+    top:0vw;
+    z-index: 2;
+    /*transform:scale(2,1.4);*/
+  width: 100%;
+  
+   height:100%;
+     
+}
+#registrationtext{
+    font-size: 10px;
+color: rgb(174, 0, 255);
+}
+#registrationtext:hover{
+     font-size: 13px;
+color: rgb(174, 0, 255);
+}
+
+#login_reistration_fon>div *:not(p, form){
+
+ border: 1px solid black;
+
+
+
+}
+#reistrationBloc,#loginBloc{
+    
+    top: 20vh;
+  
+}
+.setsize{
+  width: 100%; 
+  height: 22%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+#authorizationButton{
+    display: block;
+    width:auto;   
+}
+#authorizationButton:hover{
+background-color: rgba(0, 0, 0, 0.096);
+}
+
+.visibilityhidden {
+    /*зховати елемент*/
+    display: none;
+}
+
+.overflowhidden {
+    /*хабороняє прокрутку*/
+    overflow: hidden;
+}
