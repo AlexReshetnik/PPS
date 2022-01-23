@@ -35,6 +35,15 @@ display: inline-flex;
     border-radius: 20px;
     border: 1px solid;
 }
+form button{
+    height: 70px;
+    width: 150px;
+    position:relative;
+    top: 0;
+    left: 10px;
+    border-radius: 20px;
+    border: 1px solid;
+}
 .addNewComments input:hover{
    background-color: rgb(161, 161, 161);
 }
@@ -61,13 +70,13 @@ resize: none;
     padding-top: 3px;
    padding-left: 20px;
 }
-.Comment input{
+.Comment button{
     position: absolute;
    right:5%;
    border-radius: 10px;
    padding: 5px;
    border :1px solid rgb(0, 0, 0) ;
 }
-.Comment input:hover{
+.Comment button:hover{
     background-color: rgb(161, 161, 161);
 }

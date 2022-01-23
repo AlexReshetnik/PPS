@@ -7,7 +7,7 @@ function addComent() {
     if (document.comment.messageBox.value !== "" && document.comment.messageBox.value !=="Добавте коментар...") {
         
     
-        text.innerHTML = document.comment.userName.value + ": " + document.comment.messageBox.value +'<input type="button" name="delete" onclick="deleteComent(event);" value="Видалити коментар" />';
+        text.innerHTML = document.comment.userName.value + ": " + document.comment.messageBox.value +'<button type="button" name="delete" onclick="deleteComent(event);" value="Видалити коментар" ></button>';
    
     com.classList.add("Comment");
     com.appendChild(text);
