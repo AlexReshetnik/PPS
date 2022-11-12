@@ -3,7 +3,7 @@
 there is no draft of the working page, so I can only show the front-end
 git hub pages  -  https://alexreshetnik.github.io/PPS/
 
-This is a group project on the theme "Tourism Club", back-end built побудований на С# MVC
+This is a group project on the theme "Tourism Club", back-end built built on С# MVC
 
 My task was to create the entire front-end part, which was then integrated into the back
 
