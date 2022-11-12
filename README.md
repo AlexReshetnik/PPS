@@ -1,4 +1,6 @@
 # PPS
+
+there is no draft of the working page, so I can only show the front-end
 git hub pages  -  https://alexreshetnik.github.io/PPS/
 
 This is a group project on the theme "Tourism Club", back-end built побудований на С# MVC
